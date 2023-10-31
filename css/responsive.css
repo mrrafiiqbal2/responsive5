@@ -1,0 +1,538 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 0px;
+    font-size: 17px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+.icon{
+  text-align: right;
+  margin: 0px;
+}
+.banner .title {
+    text-align: center;
+    padding: 70px 0px;
+}
+.banner .title h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.grp-3 {
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/Imagegrp-3.png) center top no-repeat;
+    background-size: cover;
+}
+
+ .grp-3-img {
+    padding: 10px 0px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.group-3 .title {
+    padding: 20px 0px;
+}
+
+.group-3-img .img-fluid {
+    padding: 40px 0px;
+    width: auto;
+    height: auto;
+}
+
+.group-4-img .img-fluid {
+    padding: 40px 0px;
+    width: auto;
+    height: auto;
+}
+.group-4 {
+    width: 100%;
+    padding: 0px 0px;
+    background: #739ee3;
+}
+
+.group-4 .title {
+    padding: 0px 0px;
+}
+.grp-6 {
+    width: 100%;
+    padding: 0px 0px;
+    background: url(../images/Imagebg6.png) center top no-repeat;
+    background-size: cover;
+}
+.grp-5 .title p {
+    padding: 0px 0px;
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+}
+.footer .logo-footer h5 {
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-size: 30px;
+}
+p {
+    font-size: medium;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: antiquewhite;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 17px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.icon{
+  text-align: right;
+}
+
+.banner .title {
+    text-align: center;
+    padding: 70px 0px;
+}
+.banner .title h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+.banner .title p {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+}
+.banner-btn .btn-success {
+    padding: 10px 30px;
+    color: white;
+    background: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.banner .title {
+    text-align: center;
+    padding: 0px 0px;
+}
+.grp-1 .title h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.grp-1 .title p {
+    padding: 0px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+
+.grp-3 {
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../images/Imagegrp-3.png) center top no-repeat;
+    background-size: cover;
+}
+.grp-3-img {
+    padding: 40px 0px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.grp-3-img {
+    padding: 10px 0px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.group-3 .title {
+    padding: 20px 0px;
+}
+.group-3-img .img-fluid {
+    padding: 40px 0px;
+    width: auto;
+    height: auto;
+}
+.group-4 {
+    width: 100%;
+    padding: 0px 0px;
+    background: #739ee3;
+}
+
+.group-4-img .img-fluid {
+    padding: 40px 0px;
+    width: auto;
+    height: auto;
+}
+.group-4 .title {
+    padding: 20px 0px;
+}
+.group-4 .title h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.group-4 .title p {
+    padding: 10px 0px;
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.grp-3-btn .btn-success {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    padding: 10px 50px;
+}
+.pricing {
+    width: 100%;
+    padding: 40px 0px;
+    background: #5380c1;
+}
+
+.icon-grp-5 {
+    padding: 0px 0px;
+    text-align: center;
+}
+.grp-5 .title h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0px; 
+}
+.grp-5 {
+    width: 100%;
+    padding: 0px 0px;
+    background: #739ee3;
+}
+.grp-6 {
+    width: 100%;
+    padding: 30px 0px;
+    background: url(../images/Imagebg6.png) center top no-repeat;
+    background-size: cover;
+
+}
+.grp-6 .title h1 {
+    padding: 0px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+.grp-6 .title p {
+    padding: 0px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px 0px;
+    background: #343434;
+}
+
+
+  
+}
+
+@media (min-width: 279px) and (max-width: 319px){
+
+.banner .title {
+    text-align: center;
+    padding: 20px 0px;
+}
+.banner .title h1 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.banner .title p {
+    padding: 20px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: white;
+
+}
+.header-banner {
+    width: 100%;
+    padding: 90px 0px;
+    background: url(../images/BANNER.png) center top no-repeat;
+    background-size: cover;
+        margin: 0px 0px 0px 10px;
+}
+
+.grp-1 .title h1 {
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.grp-1 {
+    width: 100%;
+    padding: 40px 0px;
+    background: #739ee3;
+        margin: 0px 0px 0px 10px;
+}
+.grp-1 .title p {
+    padding: 20px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.title-1 p {
+    padding: 10px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.grp-1-img {
+    padding: 10px 0px;
+    
+}
+.grp-3 {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/Imagegrp-3.png) center top no-repeat;
+    background-size: cover;
+}
+.grp-3 .title p {
+    padding: 10px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.grp-3-img {
+    padding: 0px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.group-3 {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Background3.png) center top no-repeat;
+    background-size: cover;
+}
+
+.group-3 .title {
+    padding: 0px;
+}
+.group-3 .title h1 {
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.group-3 .title p {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.grp-3-btn .btn-success {
+    margin: 0px 0px 0px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    padding: 10px 50px;
+}
+.group-3-img{
+    text-align: center;
+}
+.group-4 {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+    padding: 10px 0px;
+    background: #739ee3;
+}
+
+.group-4-img .img-fluid {
+    padding: 10px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.group-4 .title {
+    padding: 10px 0px;
+    text-align: center;
+}
+.group-4 .title h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.group-4 .title p {
+    padding: 10px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.pricing {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+    padding: 0px 0px;
+    background: #5380c1;
+}
+.pricing .title p {
+    padding: 10px 0px;
+    font-size: xx-small;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+}
+.pricing-card {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+.grp-6 .title h1 {
+     padding: 0px 0px; 
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.grp-6 .title {
+    text-align: center;
+    padding: 0px;
+}
+.grp-6 {
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/Imagebg6.png) center top no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+}

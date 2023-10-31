@@ -1,0 +1,486 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    background: #739ee3;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+
+}
+a{
+	text-decoration: none;
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*header start*/
+.header{
+	width: 100%;
+	background: #2B77B0;
+	position: fixed;
+}
+
+.header .img-fluid{
+	width: 80%;
+	height: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 17px;
+	margin: 0px 0px 0px 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;	
+	color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: transparent;
+	color: black;
+    transition: 1s;
+}
+.icon .fa{
+	font-size: 30px;
+	color: white;
+	margin: 0px 0px 0px 40px;
+}
+/*banner start*/
+
+.header-banner{
+	width: 100%;
+	padding: 120px 0px;
+	background: url("../images/BANNER.png") center top no-repeat;
+	background-size: cover;
+
+}
+.banner .title{
+	text-align: center;
+	padding: 170px 0px;
+}
+.banner .title h1{
+	font-size: 60px;
+	font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.banner .title p{
+	padding: 20px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: white;
+	text-transform: capitalize;
+	
+}
+.banner-btn{
+	text-align: center;
+}
+.banner-btn .btn-success{
+	padding: 10px 50px;
+	color: white;
+	background: black;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid yellow;
+	border-radius: 50px;
+	transition: 1s;
+}
+.banner-btn .btn-success:hover{
+	background: transparent;
+	color: yellow;
+} 
+
+/*banner end*/
+/*header end*/
+
+/*grp-1 start*/
+.grp-1{
+	width: 100%;
+	padding: 80px 0px;
+	background: #739ee3;
+}
+.grp-1 .title{
+	background: url("../images/Design-grp-1.png") center top no-repeat;
+	background-size: auto;
+	text-align: center;
+}
+.grp-1 .title h1{
+	font-size: 60px;
+	font-weight: bolder;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.grp-1 .title p{
+	padding: 20px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: black;
+	text-transform: capitalize;
+}
+.grp-1-img{
+	padding: 40px 0px;
+	text-align: center;
+}
+.title-1{
+
+	text-align: center;
+}
+.title-1 h3{
+      font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.title-1 p{
+	padding: 10px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: black;
+	text-transform: capitalize;
+}
+/*grp-1 end*/
+
+/*grp-2 start*/
+.grp-3{
+	width: 100%;
+	padding: 120px 0px;
+	background: url("../images/Imagegrp-3.png") center top no-repeat;
+	background-size: cover;
+}
+.grp-3 .title{
+	text-align: center;
+	padding: 20px 0px;
+}
+.grp-3 .title h3{
+      font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.grp-3 .title p{
+	padding: 10px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: black;
+	text-transform: capitalize;
+}
+.grp-3-img{
+	padding: 100px 0px;
+	text-align: center;
+	width:auto;
+	height: auto;
+}
+/*grp-2 end*/
+
+/*group-3 start*/
+.group-3{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/Background3.png") center top no-repeat;
+	background-size: cover;
+}
+.group-3 .title{
+	padding: 200px 0px;
+}
+.group-3 .title h1{
+   font-size: 50px;
+	font-weight: bolder;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.group-3 .title p{
+     padding: 10px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: black;
+	text-transform: capitalize;
+}
+.grp-3-btn .btn-success{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  padding: 10px 50px;
+}
+.grp-3-btn .btn-success:hover{
+	background: yellow;
+	color: black;
+	transition: 1s;
+}
+.group-3-img .img-fluid{
+	padding: 40px 0px;
+	width: 80%;
+	height: auto;
+}
+/*group-3 end*/
+
+/*group-4 start*/
+.group-4{
+	width: 100%;
+	padding: 100px 0px;
+	background: #739ee3; 
+}
+
+.group-4 .title{
+	padding: 200px 0px;
+}
+.group-4 .title h1{
+   font-size: 50px;
+	font-weight: bolder;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.group-4 .title p{
+     padding: 10px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: black;
+	text-transform: capitalize;
+}
+.grp-4-btn .btn-success{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  padding: 10px 50px;
+}
+.grp-4-btn .btn-success:hover{
+	background: yellow;
+	color: black;
+	transition: 1s;
+}
+.group-4-img .img-fluid{
+	padding: 40px 0px;
+	width: 80%;
+	height: auto;
+}
+/*group-4 end*/
+
+/*pricing start*/
+.pricing{
+	width: 100%;
+	padding: 100px 0px;
+	background: #5380c1;
+}
+
+.pricing .title{
+	text-align: center;
+	padding: 40px 0px;
+}
+.pricing .title h1{
+	 font-size: 50px;
+	font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.pricing .title p{
+	  padding: 10px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: white;
+	text-transform: capitalize;
+}
+.pricing-card{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	
+}
+.card-body{
+	box-shadow: 10px 12px 13px 10px black;
+}
+.pricing-card .card-body h2{
+     color: #739ee3; 
+	padding: 20px 0px;
+    font-size: 32px;
+	font-weight: bolder;
+	color: #739ee3;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.pricing-card .card-body h3{
+    padding: 20px 0px;
+    font-size: 40px;
+	font-weight: bolder;
+	color: #739ee3;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.pricing-card .card-body p{
+    color: #739ee3;
+     padding: 20px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: #739ee3;
+	text-transform: capitalize;
+}
+.pricing-card .card-body .card-icon .fa{
+    font-size: 60px;
+    color: #739ee3;
+}
+
+.pricing-card .card-body .btn-primary{
+	text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: 1px solid yellow;
+  border-radius: 50px;
+  padding: 10px 50px;
+}
+.pricing-card .card-body .btn-primary:hover{
+	background: yellow;
+	color: black;
+	transition: 1s;
+}
+/*pricing end*/
+
+/*"grp-5 start*/
+.grp-5{
+	width: 100%;
+	padding: 80px 0px;
+	background: #739ee3;
+}
+.grp-5 .title{
+	text-align: center;
+	padding: 40px 0px;
+}
+.grp-5 .title h1{
+	 font-size: 50px;
+	font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.grp-5 .title p{
+	  padding: 10px 0px;
+     font-size: 20px;
+	font-weight: 500;
+	color: white;
+	text-transform: capitalize;
+}
+.icon-grp-5{
+	padding: 40px 0px;
+	text-align: center;
+}
+.icon-grp-5 .fa{
+	font-size: 70px;
+	color: white;
+}
+/*.grp-5 end*/
+
+/*grp-6 start*/
+.grp-6{
+	width: 100%;
+	padding: 320px 0px;
+	background: url("../images/Imagebg6.png") center top no-repeat;
+	background-size: cover;
+}
+.grp-6 .title{
+	text-align: center;
+	padding: 150px 0px;
+}
+.grp-6 .title p{
+	 padding: 20px 0px;
+     font-size: 25px;
+	font-weight: 500;
+	color: white;
+	text-transform: capitalize;
+}
+.grp-6 .title h1{
+	padding: 80px 0px;
+	 font-size: 80px;
+	font-weight: bolder;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/*grp-6 end*/
+
+/*footer start*/
+
+.footer{
+	width: 100%;
+	padding: 120px 0px;
+	background: #343434;
+}
+
+.footer .logo-footer h5{
+	margin: 15px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	font-size: 30px;
+	
+}
+.footer .text-footer{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	line-height: 1.2em;
+	margin-right: 50px;
+}
+.icon-footer .fa{
+	color: white;
+	font-size: 34px;
+	letter-spacing: 8px;
+	margin-left: 20px;
+	border-radius: 100%;
+	margin-top: 10px;
+
+}
+.list-menu{
+	list-style: none;
+}
+
+.footer .list-menu  li a{
+    color: red;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-bottom{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+}
+.copyrights{
+	color: white;
+}
+p a{
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+}
+
+/*footer end*/
+
+
